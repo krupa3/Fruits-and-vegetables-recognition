@@ -10,7 +10,7 @@ from email.mime.text import MIMEText
 import smtplib
 def sendmail():
     me = 'yourmail@gmail.com'
-    password = 'yourpassword'
+    password = input("Enter password for "+me+": ")
     server = 'smtp.gmail.com:587'
     you = 'receipientmail@gmail.com'
 
